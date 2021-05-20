@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=KoHo:wght@600&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'KoHo', cursive;
+}
+
+body
+{
+    padding: 5px;
+}
+
+.nav
+{
+    background-color: #333333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100hv;
+    height: 100px;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+.nav-title
+{
+    color: white;
+    margin-left: 45px;
+}
+
+.nav-links
+{
+    display: flex; 
+    gap: 1.5em;
+    margin-right: 45px;
+}
+
+li
+{
+    list-style-type: none;
+}
+
+a
+{
+    text-decoration: none;
+    color: lightgray;
+}
+
+.active
+{
+    color: white;
+    font-weight: bold;
+}
+
+.btn
+{
+    background-color: rgb(23, 162, 184);
+    color: white;
+    border-color: black;
+    box-shadow: 5px 5px black;
+}
+
+body
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 5vh;
+}
+
+.card
+{
+    width: 90vh;
+    height: 35vh;
+    border: 2px solid grey;
+    border-radius: 5px;
+}
+
+.header
+{
+    background-color: olivedrab;
+    width: inherit;
+    height: 30%;
+}
+
+.userIcon
+{
+    height: 85px;
+}
+
+.mapIcon, .gearIcon
+{
+    height: 20px;
+}
+
+.cityName
+{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.position
+{
+    position: relative;
+    top: -15%;
+    left: 3%;
+    padding-top: 5px;
+}

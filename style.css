@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+*
+{
+    outline: 0;
+	padding: 0;
+	margin: 0;
+	border: 0;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.main
+{
+    max-width: 900px;
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    gap: 2em;
+}
+
+nav div
+{
+    background-color: black;
+    color: white;
+    display:flex;
+    justify-content: space-between;
+}
+
+nav
+{
+    background-color: black;
+    color: white;
+    width: 100%;
+    padding: 5px;
+}
+
+ul
+{
+    display: inline-flex;
+    justify-content: flex-end;
+    align-items: center; 
+    gap: 1em;
+    margin-left: 1em;
+}
+
+li
+{
+    list-style-type: none;
+}
+
+input
+{
+    background-color: transparent;
+    color: lightgray;
+}
+
+.active
+{
+    color: white;
+    font-weight: bold;
+}
+
+.btn
+{
+    background-color: rgb(23, 162, 184);
+    color: white;
+    padding: 0 5px;
+}
+
+.card
+{
+    position: relative;
+    height: 35vh;
+    border: 2px solid grey;
+    border-radius: 5px;
+}
+
+.header
+{
+    background-color: olivedrab;
+    width: inherit;
+    height: 30%;
+}
+
+.userIcon
+{
+    height: 85px;
+}
+
+.mapIcon, .gearIcon
+{
+    height: 20px;
+}
+
+.cityName
+{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.position
+{
+    position: relative;
+    top: -15%;
+    left: 20px;
+}
+
+.rightCol
+{
+    margin-top: 2em;
+    flex: 3;
+}
+
+.leftCol
+{
+    flex: 1;
+}
+
+.connectRequests
+{
+    border: 2px solid grey;
+    border-radius: 5px;
+    margin-top: 2em;
+}
+
+.requestNum
+{
+    background-color: gray;
+    border-radius: 50%;
+}
+
+.smallUser
+{
+    height: 25px;
+}
+
+table
+{
+    width: 100%;
+}
+
+tr
+{
+    width: unset;
+}
+
+.header2
+{
+    background-color: rgb(51, 51, 51);
+    width: inherit;
+    height: 10%;
+    color: white;
+}
+
+.lowLine
+{
+    border-top: 2px solid gray;
+}
