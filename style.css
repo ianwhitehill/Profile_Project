@@ -76,7 +76,7 @@ input
 .card
 {
     position: relative;
-    height: 35vh;
+    height: 31vh;
     border: 2px solid grey;
     border-radius: 5px;
 }
@@ -107,7 +107,7 @@ input
 .position
 {
     position: relative;
-    top: -15%;
+    top: -20%;
     left: 20px;
 }
 
